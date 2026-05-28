@@ -1,37 +1,18 @@
-export default function InventarioComidasHome() {
+'use client'
+
+export default function InventarioComidasPage() {
   return (
-    <div style={{ minHeight: '100vh', padding: '40px', color: '#fff' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '20px',
-            marginBottom: '40px',
-            paddingBottom: '20px',
-            borderBottom: '3px solid #ea580c',
-          }}
-        >
-          <div
-            style={{
-              width: '150px',
-              height: '150px',
-              background: '#fff',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '80px',
-            }}
-          >
-            🍽️
-          </div>
-          <div>
-            <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: '#ea580c', marginBottom: '8px' }}>🍽️ INVENTARIO COMIDAS</h1>
-            <p style={{ fontSize: '16px', color: '#aaa' }}>Selecciona una opción del menú lateral para comenzar</p>
-          </div>
-        </div>
-      </div>
+    <div style={{ padding: '40px', textAlign: 'center' }}>
+      <h1>🍽️ Inventario de Comidas</h1>
+      <p>Gestión de Comidas - COMIDAS Admin</p>
+      <hr />
+      <p>Módulos disponibles:</p>
+      <ul style={{ textAlign: 'left', display: 'inline-block' }}>
+        <li>Gestión de Comidas</li>
+        <li>Proveedores</li>
+        <li>Productos</li>
+        <li>Inventario</li>
+      </ul>
     </div>
   )
 }
