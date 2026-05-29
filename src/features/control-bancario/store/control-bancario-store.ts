@@ -15,4 +15,3 @@ export const useControlBancarioStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usecontrolbancarioStore = store_creator('control-bancario-store')

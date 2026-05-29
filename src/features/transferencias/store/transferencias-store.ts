@@ -15,4 +15,3 @@ export const useTransferenciasStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usetransferenciasStore = store_creator('transferencias-store')

@@ -15,4 +15,3 @@ export const useCorreosStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usecorreosenviadosStore = store_creator('correos-store')

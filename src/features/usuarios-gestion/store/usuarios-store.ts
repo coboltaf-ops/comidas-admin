@@ -15,4 +15,3 @@ export const useUsuariosStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const useusuariosgestionStore = store_creator('usuarios-store')

@@ -15,4 +15,3 @@ export const useAjustesStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const useajustesinventarioStore = store_creator('ajustes-store')

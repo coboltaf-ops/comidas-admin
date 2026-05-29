@@ -15,4 +15,3 @@ export const useRecepcionesStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const userecepcionfacturasStore = store_creator('recepciones-store')

@@ -15,4 +15,3 @@ export const useHojaProcesoStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usehojaprocesoStore = store_creator('hoja-proceso-store')

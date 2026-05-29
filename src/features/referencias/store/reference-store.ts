@@ -15,4 +15,3 @@ export const useReferenceStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usereferenciasStore = store_creator('reference-store')

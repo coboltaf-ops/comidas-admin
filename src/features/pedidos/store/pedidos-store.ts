@@ -15,4 +15,3 @@ export const usePedidosStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usepedidosStore = store_creator('pedidos-store')

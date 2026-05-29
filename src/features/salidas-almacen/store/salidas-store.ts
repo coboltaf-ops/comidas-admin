@@ -15,4 +15,3 @@ export const useSalidasStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usesalidasalmacenStore = store_creator('salidas-store')

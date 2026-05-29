@@ -15,4 +15,3 @@ export const useModulosSistemaStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const usemodulossistemaStore = store_creator('modulos-sistema-store')

@@ -15,4 +15,3 @@ export const useOrdenesProduccionStore = (storeName: string) =>
       { name: `${storeName}-storage` }
     )
   )
-export const useproduccionStore = store_creator('ajustes-mp-store')
